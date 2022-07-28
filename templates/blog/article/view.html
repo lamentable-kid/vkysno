@@ -2,9 +2,8 @@
 <p>{{ article.text }}</p>
 <p>
     {% for tag in article.tags.all %}
-        <a href="#"> {{ tag.name }}</a>
+        <a href="#">#{{ tag.name }}</a>
     {% endfor %}
-    
 </p>
 <hr>
 <p>

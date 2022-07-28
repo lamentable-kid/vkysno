@@ -1,5 +1,5 @@
-<h1>Категории1</h1>
+<h1>Категории</h1>
 {% for category in categories %}
-    <h4>{{ category.title }}</h4>
+    <h4><a href="{% url 'article_list' category_id=category.id %}">{{ category.name }}</a></h4>
 {% endfor %}
 
