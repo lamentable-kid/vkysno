@@ -1,0 +1,6 @@
+<h1>Категории</h1>
+{% for article in articles %}
+    <h1><a href = "{% url 'article_view' article_id=article.id category_id=article.category.id %} ">{{ article.title }}</a></h1>
+    <p>{{ article.text_preview }}</p>
+    <hr>
+{% endfor %}
