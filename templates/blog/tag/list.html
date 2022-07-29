@@ -1,0 +1,9 @@
+<h1>ТЭГИ: #{{ tags }}</h1>
+    {% for tag in article.tags.all %}
+        <a href="{% url 'tag_view' article_id=article.id category_id=article.category.id tag_id=tag.id %}">#{{ tag.name }}</a>
+    {% endfor %}
+<hr>
+    <h1>{{ article.title }}</h1>
+    <h1>{{ article.text }}</h1>
+    <b>Дата</b>: {{ article.created_at }}<br>
+    <b>Категория</b>: {{ category.name }}<br>
