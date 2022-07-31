@@ -9,10 +9,15 @@ def blog_category_list(request):
 
 def article_list(request, category_id):
     articles = Article.objects.filter(category=category_id)
-    return render(request, 'blog/category/list.html', {'articles': articles})
+    return render(request, 'blog/article/list.html', {'articles': articles})
 
 
 def article_view(request, category_id, article_id):
     article = Article.objects.get(id=article_id)
     category = BlogCategory.objects.get(id=category_id)
     return render(request, 'blog/article/view.html', {'article': article, 'category': category})
+
+
+def tag_view(request, category_id, article_id, tag_id):
+    article_wh_ex_tag = Article.objects.filter(tags__in=[tag_id])
+    return render(request, 'blog/tag/list.html', {'article_wh_ex_tag': article_wh_ex_tag})
