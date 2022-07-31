@@ -1,9 +1,8 @@
-<h1>ТЭГИ: #{{ tags }}</h1>
-    {% for tag in article.tags.all %}
-        <a href="{% url 'tag_view' article_id=article.id category_id=article.category.id tag_id=tag.id %}">#{{ tag.name }}</a>
-    {% endfor %}
-<hr>
-    <h1>{{ article.title }}</h1>
-    <h1>{{ article.text }}</h1>
-    <b>Дата</b>: {{ article.created_at }}<br>
-    <b>Категория</b>: {{ category.name }}<br>
+{% extends 'base.html' %}
+{% block content %}
+<h1>Еще статьи в которых есть этот тег</h1>
+{% for article in article_wh_ex_tag %}
+    <a href="{% url 'article_view' article_id=article.id category_id=article.category.id %}"><p>{{ article.title }}</p></a>
+    <hr>
+{% endfor %}
+{% endblock %}

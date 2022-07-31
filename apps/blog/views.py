@@ -18,6 +18,6 @@ def article_view(request, category_id, article_id):
     return render(request, 'blog/article/view.html', {'article': article, 'category': category})
 
 
-def tag_view(request, tag_id):
-    tags = Article.objects.filter(id=tag_id)
-    return render(request, 'blog/tag/list.html', {'tag': tags})
+def tag_view(request, category_id, article_id, tag_id):
+    article_wh_ex_tag = Article.objects.filter(tags__in=[tag_id])
+    return render(request, 'blog/tag/list.html', {'article_wh_ex_tag': article_wh_ex_tag})
