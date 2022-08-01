@@ -1,3 +1,9 @@
 #logo{
     max-width: 300px;
 }
+#tabl{
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+}
+body{
+    background-color: aqua;
+}
