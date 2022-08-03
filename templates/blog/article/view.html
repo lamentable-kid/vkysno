@@ -4,7 +4,7 @@
     <p>{{ article.text }}</p>
     <p>
         {% for tag in article.tags.all %}
-            <a href="{% url 'tag_view' article_id=article.id category_id=article.category.id tag_id=tag.id %}">#{{ tag.name }}</a>
+            <a href="{% url 'tag_view' tag_id=tag.id %}">#{{ tag.name }}</a>
         {% endfor %}
     </p>
     <hr>
