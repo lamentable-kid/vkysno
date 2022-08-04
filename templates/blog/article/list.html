@@ -6,7 +6,7 @@
         {% for article in articles %}
             <div class="col-4 blog-item">
                 {% if article.image %}
-                    <a href="{% url 'article_view' article_id=article.id category_id=article.category.id %}"><img class="img-thumbnail" src="{{ article.image_thumbnail.url }}" alt=""></a>
+                    <a href="{% url 'article_view' article_id=article.id category_id=article.category.id %}"><img class="img-thumbnail" src="{{ article.image_thumbnail.url }}" alt=""></a> #  не создался коммит файла
                 {% else %}
                     <a href="{% url 'article_view' article_id=article.id category_id=article.category.id %}"><img class="img-thumbnail" src="{% static 'no-image.png' %}" alt=""></a>
                 {% endif %}

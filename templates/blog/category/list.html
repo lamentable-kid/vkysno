@@ -6,7 +6,7 @@
         {% for category in categories %}
             <div class="col-4 blog-item">
                 {% if categories.image %}
-                    <a href="{% url 'article_list' category_id=category.id %}"><img class="img-thumbnail" src="{{ category.image.url }}" alt=""></a>
+                    <a href="{% url 'article_list' category_id=category.id %}"><img class="img-thumbnail" src="{{ category.image.url }}" alt=""></a>  # не создался коммит файла
                 {% else %}
                     <a href="{% url 'article_list' category_id=category.id %}"><img class="img-thumbnail" src="{% static 'no-image.png' %}" alt=""></a>
                 {% endif %}
