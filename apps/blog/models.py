@@ -1,70 +1,43 @@
-from django.db import models
-from imagekit.models import ProcessedImageField, ImageSpecField
-from pilkit.processors import ResizeToFill
+from django.contrib import admin
+from apps.blog.models import Article, BlogCategory, Tag
+from django.urls import reverse
+from django.utils.html import format_html
+from django.utils.http import urlencode
 
 
-class Tag(models.Model):
-    name = models.CharField(verbose_name='Название тега', max_length=255)
-
-    def __str__(self):
-        return self.name
-
-    class Meta:
-        verbose_name = 'Тег'
-        verbose_name_plural = 'Теги'
+admin.site.register(Tag)
 
 
-class BlogCategory(models.Model):
-    name = models.CharField(verbose_name='Название', max_length=255)
-    # image = models.ImageField(verbose_name='Изображение', upload_to='blog/category/', null=True)
-    image = ProcessedImageField(
-        verbose_name='Изображение',
-        upload_to='blog/category/',
-        processors=[ResizeToFill(600,400)],
-        format='JPEG',
-        options={'quality': 100},
-        null=True
-    )
+@admin.register(BlogCategory)
+class BlogCategoryAdmin(admin.ModelAdmin):
+    list_display = ['id', 'name', 'image_tag_thumbnail', 'article_list_link']
+    list_display_links = ['id', 'name', 'image_tag_thumbnail']
+    fields = ['name', 'image_tag', 'image']
+    readonly_fields = ['image_tag']
 
-    def __str__(self):
-        return self.name
+    def article_list_link(self, obj):
+        count = Article.objects.filter(category=obj).count()
+        url = (
+            reverse('admin:blog_article_changelist')
+            + '?'
+            + urlencode({'category__id': obj.id, 'category__id__exact': obj.id})
+        )
+        return format_html(f"<a href='{url}'>Статьи(ей): {count}</a>")
 
-    class Meta:
-        verbose_name = 'Категория блога'
-        verbose_name_plural = 'Категории блога'
+    article_list_link.short_description = 'Статьи'
 
 
-class Article(models.Model):
-    category = models.ForeignKey(  # Чтобы связать Article and BlogCategory
-        to=BlogCategory,
-        verbose_name='Категория',
-        on_delete=models.SET_NULL,
-        null=True
-    )
-    title = models.CharField(verbose_name='Заголовок', max_length=255)
-    image = ProcessedImageField(
-        verbose_name='Изображение',
-        upload_to='blog/article/',
-        processors=[],
-        format='JPEG',
-        options={'quality': 100},
-        null=True
-    )
-    image_thumbnail = ImageSpecField(
-        source='image',
-        processors=[ResizeToFill(600, 400)],
-        format='JPEG',
-        options={'quality': 100}
-    )
-    text_preview = models.TextField(verbose_name='Текст-превью')
-    text = models.TextField(verbose_name='Текст')
-    created_at = models.DateTimeField(verbose_name='Дата создания', auto_now_add=True)
-    updated_at = models.DateTimeField(verbose_name='Дата редактирования', auto_now=True)
-    tags = models.ManyToManyField(Tag, verbose_name='Теги', blank=True)
+@admin.register(Article)
+class ArticleAdmin(admin.ModelAdmin):
+    list_display = ['id', 'title', 'image_tag_thumbnail', 'category_link', 'created_at']
+    list_display_links = ['id', 'title', 'image_tag_thumbnail']
+    fields = ['category', 'image_tag', 'image', 'tags', 'title', 'text_preview', 'text']
+    readonly_fields = ['image_tag']
+    list_filter = ['category', 'tags']
 
-    def __str__(self):
-        return self.title
+    def category_link(self, obj):
+        if obj.category:
+            url = reverse('admin:blog_blogcategory_change', args=[obj.category.id])
+            return format_html(f"<a href='{url}'>{obj.category.name}</a>")
 
-    class Meta:
-        verbose_name = 'Статья'
-        verbose_name_plural = 'Статьи'
+    category_link.short_description = 'Категория'
