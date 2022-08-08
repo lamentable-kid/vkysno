@@ -64,13 +64,13 @@ class Article(models.Model):
         processors=[],
         format='JPEG',
         options={'quality': 100},
-        null=True
+        blank=True
     )
     image_thumbnail = ImageSpecField(
         source='image',
         processors=[ResizeToFill(600, 400)],
         format='JPEG',
-        options={'quality': 100}
+        options={'quality': 100},
     )
     title = models.CharField(verbose_name='Заголовок', max_length=255)
     text_preview = models.TextField(verbose_name='Текст-превью')
