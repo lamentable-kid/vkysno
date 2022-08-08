@@ -5,9 +5,6 @@ from django.utils.html import format_html
 from django.utils.http import urlencode
 
 
-admin.site.register(Tag)
-
-
 @admin.register(BlogCategory)
 class BlogCategoryAdmin(admin.ModelAdmin):
     list_display = ['id', 'name', 'image_tag_thumbnail', 'article_list_link']
@@ -29,8 +26,8 @@ class BlogCategoryAdmin(admin.ModelAdmin):
 
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
-    list_display = ['id', 'title', 'image_tag_thumbnail', 'category_link', 'created_at']
-    list_display_links = ['id', 'title', 'image_tag_thumbnail']
+    list_display = ['id', 'title', 'image_tag_thumbnail', 'category_link', 'created_at', 'tags_list']
+    list_display_links = ['id', 'title', 'image_tag_thumbnail', 'tags_list']
     fields = ['category', 'image_tag', 'image', 'tags', 'title', 'text_preview', 'text']
     readonly_fields = ['image_tag']
     list_filter = ['category', 'tags']
@@ -41,3 +38,22 @@ class ArticleAdmin(admin.ModelAdmin):
             return format_html(f"<a href='{url}'>{obj.category.name}</a>")
 
     category_link.short_description = 'Категория'
+
+    def tags_list(self, obj):
+        tags = obj.tags.all()
+        tags_names = ""
+        for tag in tags:
+            url = (
+                reverse('admin:blog_tag_changelist')
+                + f'{tag.id}'
+            )
+            tags_names += f' <a href="{url}" >{tag.name}</a>,'
+        return format_html(f'{tags_names}'.rstrip(','))
+
+    tags_list.short_description = 'Теги'
+
+
+@admin.register(Tag)
+class TagAdmin(admin.ModelAdmin):
+    list_display = ['name']
+    list_display_links = ['name']
