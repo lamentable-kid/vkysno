@@ -3,8 +3,16 @@
     <h1>{{ article.title }}</h1>
     {% if article.image %}
         <img class="img-thumbnail" src="{{ article.image.url }}" alt="">
-    {% endif %} 
+    {% endif %}
     <p>{{ article.text }}</p>
+    <p>Автор:
+    {% if article.user %}
+        {% if user.image %}
+            <img class="img-thumbnail" src="{{ article.user.image_thumbnail.url }}" alt="">
+        {% endif %}
+        <b> {{ article.user.first_name }} {{ article.user.last_name }}</b>
+    {% endif %}
+    </p>
     <p>
         {% for tag in article.tags.all %}
             <a href="{% url 'tag_view' tag_id=tag.id %}">#{{ tag.name }}</a>

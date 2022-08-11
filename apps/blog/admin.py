@@ -28,7 +28,7 @@ class BlogCategoryAdmin(admin.ModelAdmin):
 class ArticleAdmin(admin.ModelAdmin):
     list_display = ['id', 'title', 'image_tag_thumbnail', 'category_link', 'created_at', 'tags_list']
     list_display_links = ['id', 'title', 'image_tag_thumbnail', 'tags_list']
-    fields = ['category', 'image_tag', 'image', 'tags', 'title', 'text_preview', 'text']
+    fields = ['category', 'image_tag', 'image', 'tags', 'title', 'text_preview', 'text', 'user']
     readonly_fields = ['image_tag']
     list_filter = ['category', 'tags']
 
@@ -51,7 +51,6 @@ class ArticleAdmin(admin.ModelAdmin):
         return format_html(f'{tags_names}'.rstrip(','))
 
     tags_list.short_description = 'Теги'
-
 
 @admin.register(Tag)
 class TagAdmin(admin.ModelAdmin):
