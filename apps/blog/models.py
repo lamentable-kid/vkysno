@@ -2,6 +2,7 @@ from django.db import models
 from django.utils.safestring import mark_safe
 from imagekit.models import ProcessedImageField, ImageSpecField
 from pilkit.processors import ResizeToFill
+from apps.user.models import User
 from config.settings import MEDIA_ROOT
 
 
@@ -71,6 +72,12 @@ class Article(models.Model):
         processors=[ResizeToFill(600, 400)],
         format='JPEG',
         options={'quality': 100},
+    )
+    user = models.ForeignKey(
+        to=User,
+        verbose_name='Автор статьи',
+        on_delete=models.SET_NULL,
+        null=True
     )
     title = models.CharField(verbose_name='Заголовок', max_length=255)
     text_preview = models.TextField(verbose_name='Текст-превью')
