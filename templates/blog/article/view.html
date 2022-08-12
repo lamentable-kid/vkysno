@@ -5,19 +5,25 @@
         <img class="img-thumbnail" src="{{ article.image.url }}" alt="">
     {% endif %}
     <p>{{ article.text }}</p>
-    <p>Автор:
     {% if article.user %}
-        {% if user.image %}
-            <img class="img-thumbnail" src="{{ article.user.image_thumbnail.url }}" alt="">
-        {% endif %}
-        <b> {{ article.user.first_name }} {{ article.user.last_name }}</b>
+        <div class="text-end">
+            <div class="author">
+                {% if article.user.image %}
+                    <p>Автор:</p>
+                    <span class="avatar">
+                        <img src="{{ article.user.image_thumbnail.url }}" alt="">
+                    </span>
+                {% endif %}
+                <span class="author-name">{{ article.user.first_name }} {{ article.user.last_name }}</span>
+            </div>
+        </div>
     {% endif %}
-    </p>
     <p>
         {% for tag in article.tags.all %}
             <a href="{% url 'tag_view' tag_id=tag.id %}">#{{ tag.name }}</a>
         {% endfor %}
     </p>
+    <br>
     <hr>
     <p>
         <b>Дата</b>: {{ article.created_at }}<br>
