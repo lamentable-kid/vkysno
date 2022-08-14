@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="dz13(2)">
+      <change afterPath="$PROJECT_DIR$/apps/catalog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/catalog/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/catalog/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0002_alter_category_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/catalog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/catalog/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/catalog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/catalog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/blog/category/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/blog/category/3_DbJ9FaF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/blog/category/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/catalog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vkysno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vkysno.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/category/list.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="article_user" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2C1Gq84jUvg30JzNtr5GENQXwVG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Professional/Documents/GitHub/vkysno/apps/catalog",
+    "list.type.of.created.stylesheet": "CSS",
+    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps\catalog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps" />
+      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates\blog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.vkysno">
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+      <module name="vkysno" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="config.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Professional\Documents\GitHub\vkysno\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vkysno" type="Python.DjangoServer" factoryName="Django server">
+      <module name="vkysno" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="config.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="dz13(2)" />
+      <created>1657962865237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657962865237</updated>
+      <workItem from="1657962869684" duration="1354000" />
+      <workItem from="1657976740955" duration="588000" />
+      <workItem from="1658394275222" duration="1820000" />
+      <workItem from="1658486509319" duration="109000" />
+      <workItem from="1658606080577" duration="154000" />
+      <workItem from="1658606252102" duration="1280000" />
+      <workItem from="1658866948587" duration="8000" />
+      <workItem from="1658952142107" duration="340000" />
+      <workItem from="1658952501560" duration="855000" />
+      <workItem from="1658997078359" duration="834000" />
+      <workItem from="1658997941506" duration="11000" />
+      <workItem from="1658997976172" duration="11000" />
+      <workItem from="1658998054391" duration="84000" />
+      <workItem from="1658998169041" duration="8865000" />
+      <workItem from="1659007524044" duration="11331000" />
+      <workItem from="1659265057822" duration="8195000" />
+      <workItem from="1659301349113" duration="47000" />
+      <workItem from="1659352826142" duration="3817000" />
+      <workItem from="1659386671939" duration="66000" />
+      <workItem from="1659388833866" duration="334000" />
+      <workItem from="1659389307768" duration="4190000" />
+      <workItem from="1659558138057" duration="605000" />
+      <workItem from="1660310485074" duration="123000" />
+      <workItem from="1660310620515" duration="6653000" />
+    </task>
+    <task id="LOCAL-00001" summary="init project">
+      <created>1657962944549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657962944549</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init django">
+      <created>1657963850978</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657963850978</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tags migrations">
+      <created>1658396021433</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658396021433</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tags migrations2">
+      <created>1658486565582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658486565583</updated>
+    </task>
+    <task id="LOCAL-00005" summary="123213">
+      <created>1658608252136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658608252136</updated>
+    </task>
+    <task id="LOCAL-00006" summary="123213">
+      <created>1658952164678</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658952164678</updated>
+    </task>
+    <task id="LOCAL-00007" summary="123213">
+      <created>1658952423590</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658952423590</updated>
+    </task>
+    <task id="LOCAL-00008" summary="28,7,2022">
+      <created>1659001979881</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659001979881</updated>
+    </task>
+    <task id="LOCAL-00009" summary="28,7,2022(2)">
+      <created>1659004142397</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659004142397</updated>
+    </task>
+    <task id="LOCAL-00010" summary="сетка и стили, статика">
+      <created>1659131366239</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659131366239</updated>
+    </task>
+    <task id="LOCAL-00011" summary="сетка и стили, статика(2)">
+      <created>1659132207193</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659132207193</updated>
+    </task>
+    <task id="LOCAL-00012" summary="дз9">
+      <created>1659292798268</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659292798268</updated>
+    </task>
+    <task id="LOCAL-00013" summary="дз10">
+      <created>1659355924557</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659355924557</updated>
+    </task>
+    <task id="LOCAL-00014" summary="дз11">
+      <created>1659557922272</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659557922272</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init project" />
+    <MESSAGE value="init django" />
+    <MESSAGE value="tags migrations" />
+    <MESSAGE value="tags migrations2" />
+    <MESSAGE value="123213" />
+    <MESSAGE value="28,7,2022" />
+    <MESSAGE value="28,7,2022(2)" />
+    <MESSAGE value="сетка и стили, статика" />
+    <MESSAGE value="сетка и стили, статика(2)" />
+    <MESSAGE value="дз9" />
+    <MESSAGE value="дз10" />
+    <MESSAGE value="дз11" />
+    <option name="LAST_COMMIT_MESSAGE" value="дз11" />
+  </component>
+</project>
