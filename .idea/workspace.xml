@@ -1,31 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="dz13(2)">
-      <change afterPath="$PROJECT_DIR$/apps/catalog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/catalog/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/catalog/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0002_alter_category_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/catalog/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/catalog/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/catalog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/catalog/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog/category/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog/category/3_DbJ9FaF.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog/category/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/catalog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vkysno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vkysno.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/category/list.html" afterDir="false" />
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="catalog categories">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +162,7 @@
       <workItem from="1659389307768" duration="4190000" />
       <workItem from="1659558138057" duration="605000" />
       <workItem from="1660310485074" duration="123000" />
-      <workItem from="1660310620515" duration="6653000" />
+      <workItem from="1660310620515" duration="7713000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1657962944549</created>
@@ -283,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659557922272</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="catalog categories">
+      <created>1660472700291</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660472700291</updated>
+    </task>
+    <task id="LOCAL-00016" summary="catalog categories">
+      <created>1660472706511</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660472706511</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +307,7 @@
     <MESSAGE value="дз9" />
     <MESSAGE value="дз10" />
     <MESSAGE value="дз11" />
-    <option name="LAST_COMMIT_MESSAGE" value="дз11" />
+    <MESSAGE value="catalog categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalog categories" />
   </component>
 </project>
