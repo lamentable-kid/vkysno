@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="dz16">
-      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0004_alter_product_options_alter_product_quantity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0005_productcategory_product_categories_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/catalog/category.html" afterDir="false" />
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="product_to_category">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +164,7 @@
       <workItem from="1660310485074" duration="123000" />
       <workItem from="1660310620515" duration="7890000" />
       <workItem from="1660473793121" duration="40000" />
-      <workItem from="1660738800864" duration="9375000" />
+      <workItem from="1660738800864" duration="14637000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1657962944549</created>
@@ -290,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660473662319</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="product_to_category">
+      <created>1660750520705</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1660750520705</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +325,7 @@
     <MESSAGE value="дз11" />
     <MESSAGE value="catalog categories" />
     <MESSAGE value="dz16" />
-    <option name="LAST_COMMIT_MESSAGE" value="dz16" />
+    <MESSAGE value="product_to_category" />
+    <option name="LAST_COMMIT_MESSAGE" value="product_to_category" />
   </component>
 </project>

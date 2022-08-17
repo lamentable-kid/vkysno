@@ -1,5 +1,5 @@
 from django.contrib import admin
-from apps.catalog.models import Category, Product
+from apps.catalog.models import Category, Product, Image
 
 
 @admin.register(Category)
@@ -12,8 +12,13 @@ class ProductCategoryInline(admin.TabularInline):
     extra = 1
 
 
+class ProductImageInline(admin.TabularInline):
+    model = Product.images.through
+    extra = 1
+
+
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ['id', 'name', 'quantity', 'price', 'created_at', 'updated_at']
+    list_display = ['id', 'name', 'quantity', 'price']
     fields = ['name', 'description', 'quantity', 'price']
-    inlines = [ProductCategoryInline]
+    inlines = [ProductCategoryInline, ProductImageInline]
