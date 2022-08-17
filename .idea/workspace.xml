@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="catalog categories">
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="dz16">
+      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0004_alter_product_options_alter_product_quantity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0005_productcategory_product_categories_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/catalog/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +41,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="article_user" />
+        <entry key="$PROJECT_DIR$" value="catalog_categories" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,25 +58,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Professional/Documents/GitHub/vkysno/apps/catalog",
-    "list.type.of.created.stylesheet": "CSS",
-    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Professional/Documents/GitHub/vkysno/apps/catalog&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps\catalog" />
@@ -162,7 +167,9 @@
       <workItem from="1659389307768" duration="4190000" />
       <workItem from="1659558138057" duration="605000" />
       <workItem from="1660310485074" duration="123000" />
-      <workItem from="1660310620515" duration="7713000" />
+      <workItem from="1660310620515" duration="7890000" />
+      <workItem from="1660473793121" duration="40000" />
+      <workItem from="1660738800864" duration="9375000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1657962944549</created>
@@ -276,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660472706511</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="dz16">
+      <created>1660473662319</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1660473662319</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +322,7 @@
     <MESSAGE value="дз10" />
     <MESSAGE value="дз11" />
     <MESSAGE value="catalog categories" />
-    <option name="LAST_COMMIT_MESSAGE" value="catalog categories" />
+    <MESSAGE value="dz16" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz16" />
   </component>
 </project>
