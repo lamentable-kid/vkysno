@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="product_to_category">
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="for main">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0007_remove_productimage_image_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0008_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/.jscsrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/css/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/css/lightbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/js/lightbox-plus-jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/js/lightbox-plus-jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/js/lightbox-plus-jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/js/lightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/js/lightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lightbox/js/lightbox.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/catalog/_category_tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/catalog/_products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/catalog/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_08_2022_16_22__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_08_2022_16_22__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vkysno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vkysno.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/catalog/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/catalog/category.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,27 +84,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Professional/Documents/GitHub/vkysno/apps/catalog&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Professional/Documents/GitHub/vkysno/templates/catalog",
+    "list.type.of.created.stylesheet": "CSS",
+    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates\catalog" />
+      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\static" />
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps\catalog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
