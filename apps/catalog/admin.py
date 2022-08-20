@@ -12,13 +12,16 @@ class ProductCategoryInline(admin.TabularInline):
     extra = 1
 
 
-class ProductImageInline(admin.TabularInline):
-    model = Product.images.through
+class ImageInline(admin.TabularInline):
+    model = Image
+    fields = ['product', 'image_tag', 'image', 'is_main']
+    readonly_fields = ['image_tag']
     extra = 1
 
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
     list_display = ['id', 'name', 'quantity', 'price']
+    list_display_links = ['id', 'name']
     fields = ['name', 'description', 'quantity', 'price']
-    inlines = [ProductCategoryInline, ProductImageInline]
+    inlines = [ProductCategoryInline, ImageInline]
