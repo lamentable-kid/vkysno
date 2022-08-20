@@ -1,0 +1,176 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8cd14570-d172-4a92-a41b-3d119024cd03\" name=\"Changes\" comment=\"дз11\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n        <option value=\"CSS File\" />\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <favorite-branches>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"LOCAL\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"main\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </favorite-branches>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"styles\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2C1Gq84jUvg30JzNtr5GENQXwVG\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/Professional/Documents/GitHub/vkysno/config/settings.py&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;DatabaseDriversLRU&quot;: [\r\n      &quot;postgresql&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Professional\\Documents\\GitHub\\vkysno\\templates\\blog\" />\r\n      <recent name=\"C:\\Users\\Professional\\Documents\\GitHub\\vkysno\\apps\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Unnamed\" type=\"Python.DjangoServer\" factoryName=\"Django server\" nameIsGenerated=\"true\">\r\n      <module name=\"vkysno\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n        <env name=\"DJANGO_SETTINGS_MODULE\" value=\"config.settings\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Users\\Professional\\Documents\\GitHub\\vkysno\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"launchJavascriptDebuger\" value=\"false\" />\r\n      <option name=\"port\" value=\"8000\" />\r\n      <option name=\"host\" value=\"\" />\r\n      <option name=\"additionalOptions\" value=\"\" />\r\n      <option name=\"browserUrl\" value=\"\" />\r\n      <option name=\"runTestServer\" value=\"false\" />\r\n      <option name=\"runNoReload\" value=\"false\" />\r\n      <option name=\"useCustomRunCommand\" value=\"false\" />\r\n      <option name=\"customRunCommand\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8cd14570-d172-4a92-a41b-3d119024cd03\" name=\"Changes\" comment=\"\" />\r\n      <created>1657962865237</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1657962865237</updated>\r\n      <workItem from=\"1657962869684\" duration=\"1354000\" />\r\n      <workItem from=\"1657976740955\" duration=\"588000\" />\r\n      <workItem from=\"1658394275222\" duration=\"1820000\" />\r\n      <workItem from=\"1658486509319\" duration=\"109000\" />\r\n      <workItem from=\"1658606080577\" duration=\"154000\" />\r\n      <workItem from=\"1658606252102\" duration=\"1280000\" />\r\n      <workItem from=\"1658866948587\" duration=\"8000\" />\r\n      <workItem from=\"1658952142107\" duration=\"340000\" />\r\n      <workItem from=\"1658952501560\" duration=\"855000\" />\r\n      <workItem from=\"1658997078359\" duration=\"834000\" />\r\n      <workItem from=\"1658997941506\" duration=\"11000\" />\r\n      <workItem from=\"1658997976172\" duration=\"11000\" />\r\n      <workItem from=\"1658998054391\" duration=\"84000\" />\r\n      <workItem from=\"1658998169041\" duration=\"8865000\" />\r\n      <workItem from=\"1659007524044\" duration=\"11331000\" />\r\n      <workItem from=\"1659265057822\" duration=\"8195000\" />\r\n      <workItem from=\"1659301349113\" duration=\"47000\" />\r\n      <workItem from=\"1659352826142\" duration=\"3817000\" />\r\n      <workItem from=\"1659386671939\" duration=\"66000\" />\r\n      <workItem from=\"1659388833866\" duration=\"334000\" />\r\n      <workItem from=\"1659389307768\" duration=\"4190000\" />\r\n      <workItem from=\"1659558138057\" duration=\"605000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"init project\">\r\n      <created>1657962944549</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1657962944549</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"init django\">\r\n      <created>1657963850978</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1657963850978</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"tags migrations\">\r\n      <created>1658396021433</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1658396021433</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"tags migrations2\">\r\n      <created>1658486565582</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1658486565583</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"123213\">\r\n      <created>1658608252136</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1658608252136</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"123213\">\r\n      <created>1658952164678</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1658952164678</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"123213\">\r\n      <created>1658952423590</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1658952423590</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"28,7,2022\">\r\n      <created>1659001979881</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1659001979881</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"28,7,2022(2)\">\r\n      <created>1659004142397</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1659004142397</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"сетка и стили, статика\">\r\n      <created>1659131366239</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1659131366239</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"сетка и стили, статика(2)\">\r\n      <created>1659132207193</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1659132207193</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"дз9\">\r\n      <created>1659292798268</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1659292798268</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"дз10\">\r\n      <created>1659355924557</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1659355924557</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"дз11\">\r\n      <created>1659557922272</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1659557922272</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"15\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"init project\" />\r\n    <MESSAGE value=\"init django\" />\r\n    <MESSAGE value=\"tags migrations\" />\r\n    <MESSAGE value=\"tags migrations2\" />\r\n    <MESSAGE value=\"123213\" />\r\n    <MESSAGE value=\"28,7,2022\" />\r\n    <MESSAGE value=\"28,7,2022(2)\" />\r\n    <MESSAGE value=\"сетка и стили, статика\" />\r\n    <MESSAGE value=\"сетка и стили, статика(2)\" />\r\n    <MESSAGE value=\"дз9\" />\r\n    <MESSAGE value=\"дз10\" />\r\n    <MESSAGE value=\"дз11\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"дз11\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 56347929fee9966d4a189540d6a3ccf4aa89165e)
++++ b/.idea/workspace.xml	(date 1660985456886)
+@@ -1,7 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="8cd14570-d172-4a92-a41b-3d119024cd03" name="Changes" comment="дз11" />
++    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="dz17">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -32,10 +34,11 @@
+     </favorite-branches>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="styles" />
++        <entry key="$PROJECT_DIR$" value="product_to_category" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -50,12 +53,14 @@
+   </component>
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
++    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
++    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Professional/Documents/GitHub/vkysno/config/settings.py&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/Professional/Documents/GitHub/vkysno/apps/catalog&quot;,
+     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;
+   },
+@@ -66,12 +71,15 @@
+   }
+ }</component>
+   <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps\catalog" />
++    </key>
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps" />
+       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates\blog" />
+-      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps" />
+     </key>
+   </component>
+-  <component name="RunManager">
++  <component name="RunManager" selected="Django Server.Unnamed">
+     <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+       <module name="vkysno" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -81,6 +89,30 @@
+         <env name="DJANGO_SETTINGS_MODULE" value="config.settings" />
+       </envs>
+       <option name="SDK_HOME" value="C:\Users\Professional\Documents\GitHub\vkysno\venv\Scripts\python.exe" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="launchJavascriptDebuger" value="false" />
++      <option name="port" value="8000" />
++      <option name="host" value="" />
++      <option name="additionalOptions" value="" />
++      <option name="browserUrl" value="" />
++      <option name="runTestServer" value="false" />
++      <option name="runNoReload" value="false" />
++      <option name="useCustomRunCommand" value="false" />
++      <option name="customRunCommand" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="vkysno" type="Python.DjangoServer" factoryName="Django server">
++      <module name="vkysno" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++        <env name="DJANGO_SETTINGS_MODULE" value="config.settings" />
++      </envs>
++      <option name="SDK_HOME" value="" />
+       <option name="WORKING_DIRECTORY" value="" />
+       <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+@@ -100,7 +132,7 @@
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="8cd14570-d172-4a92-a41b-3d119024cd03" name="Changes" comment="" />
++      <changelist id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="dz13(2)" />
+       <created>1657962865237</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+@@ -127,6 +159,10 @@
+       <workItem from="1659388833866" duration="334000" />
+       <workItem from="1659389307768" duration="4190000" />
+       <workItem from="1659558138057" duration="605000" />
++      <workItem from="1660310485074" duration="123000" />
++      <workItem from="1660310620515" duration="7890000" />
++      <workItem from="1660473793121" duration="40000" />
++      <workItem from="1660738800864" duration="14637000" />
+     </task>
+     <task id="LOCAL-00001" summary="init project">
+       <created>1657962944549</created>
+@@ -226,7 +262,35 @@
+       <option name="project" value="LOCAL" />
+       <updated>1659557922272</updated>
+     </task>
+-    <option name="localTasksCounter" value="15" />
++    <task id="LOCAL-00015" summary="catalog categories">
++      <created>1660472700291</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1660472700291</updated>
++    </task>
++    <task id="LOCAL-00016" summary="catalog categories">
++      <created>1660472706511</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1660472706511</updated>
++    </task>
++    <task id="LOCAL-00017" summary="dz16">
++      <created>1660473662319</created>
++      <option name="number" value="00017" />
++      <option name="presentableId" value="LOCAL-00017" />
++      <option name="project" value="LOCAL" />
++      <updated>1660473662319</updated>
++    </task>
++    <task id="LOCAL-00018" summary="product_to_category">
++      <created>1660750520705</created>
++      <option name="number" value="00018" />
++      <option name="presentableId" value="LOCAL-00018" />
++      <option name="project" value="LOCAL" />
++      <updated>1660750520705</updated>
++    </task>
++    <option name="localTasksCounter" value="19" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -244,6 +308,7 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
++    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="init project" />
+     <MESSAGE value="init django" />
+     <MESSAGE value="tags migrations" />
+@@ -256,6 +321,9 @@
+     <MESSAGE value="дз9" />
+     <MESSAGE value="дз10" />
+     <MESSAGE value="дз11" />
+-    <option name="LAST_COMMIT_MESSAGE" value="дз11" />
++    <MESSAGE value="catalog categories" />
++    <MESSAGE value="dz16" />
++    <MESSAGE value="product_to_category" />
++    <option name="LAST_COMMIT_MESSAGE" value="product_to_category" />
+   </component>
+ </project>
+\ No newline at end of file

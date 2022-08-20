@@ -1,46 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="for main">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0007_remove_productimage_image_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0008_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/.jscsrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/css/lightbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/css/lightbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/images/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/js/lightbox-plus-jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/js/lightbox-plus-jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/js/lightbox-plus-jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/js/lightbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/js/lightbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lightbox/js/lightbox.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/catalog/_category_tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/catalog/_products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/catalog/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_08_2022_16_22__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_08_2022_16_22__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vkysno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vkysno.iml" afterDir="false" />
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="product model">
+      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/1/5fc36a92c03354ff45fc59246b04eb83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/1_BWv5ZTO/41257178c25f44b707bb3ce850040a66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/1_nUCJhar/daf206fdf0dbb64663a34fba73538d2a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/2/c8c87db3ce6dbe04e138c43e6dda72cf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/3/356118a12834cea9206bbdad789548ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/4/463c2d1a8aa38ff68cc9e0ab0a9a1cd0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/5/ff49fe9ba5dc89839013d2e19877511c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/6/4b5d1a8dcdea6a71ecb1573775ef57ba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/7/9426a4cc0f108cce17a9740486868219.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/7_lpG3rVz/28a88d29e60b32da74c6f701f4119676.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/8/e07ad55f8290dba09c594cb64c12b4b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/8_HF4EQWN/b34cc1b82d9867df7043fc22a1df7ca7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/catalog/product/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/catalog/product/1_BWv5ZTO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/catalog/product/1_nUCJhar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/catalog/product/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/catalog/product/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/catalog/product/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/catalog/product/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/catalog/product/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/catalog/product/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/catalog/product/7_lpG3rVz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/catalog/product/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/catalog/product/8_HF4EQWN.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/catalog/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/catalog/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/catalog/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/catalog/product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -325,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660750520705</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="product model">
+      <created>1661028148861</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1661028148861</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +361,7 @@
     <MESSAGE value="catalog categories" />
     <MESSAGE value="dz16" />
     <MESSAGE value="product_to_category" />
-    <option name="LAST_COMMIT_MESSAGE" value="product_to_category" />
+    <MESSAGE value="product model" />
+    <option name="LAST_COMMIT_MESSAGE" value="product model" />
   </component>
 </project>
