@@ -9,7 +9,7 @@
         {% for category in object_list %}
             <div class="col-4 blog-item">
                 <a href="{{ category.get_absolute_url }}">
-                {% if categories.image %}
+                {% if category.image %}
                     <img class="img-thumbnail" src="{{ category.image.url }}" alt="">
                 {% else %}
                     <img class="img-thumbnail" src="{% static 'no-image.png' %}" alt="">

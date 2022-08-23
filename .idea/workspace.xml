@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="meta tags">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_08_2022_11_49__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_08_2022_11_49__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_08_2022_11_51__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_08_2022_11_51__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_08_2022_11_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_08_2022_11_54__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/article/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/article/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/article/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/article/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/category/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/tag/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/tag/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/catalog/_category_tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/catalog/_category_tree.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
