@@ -9,7 +9,7 @@ from django.utils.http import urlencode
 class BlogCategoryAdmin(admin.ModelAdmin):
     list_display = ['id', 'name', 'image_tag_thumbnail', 'article_list_link']
     list_display_links = ['id', 'name', 'image_tag_thumbnail']
-    fields = ['name', 'image_tag', 'image']
+    fields = ['name', 'image_tag', 'image', 'meta_title', 'meta_description', 'meta_keywords']
     readonly_fields = ['image_tag']
 
     def article_list_link(self, obj):
@@ -28,7 +28,8 @@ class BlogCategoryAdmin(admin.ModelAdmin):
 class ArticleAdmin(admin.ModelAdmin):
     list_display = ['id', 'title', 'image_tag_thumbnail', 'category_link', 'created_at', 'tags_list']
     list_display_links = ['id', 'title', 'image_tag_thumbnail', 'tags_list']
-    fields = ['category', 'image_tag', 'image', 'tags', 'title', 'text_preview', 'text', 'user']
+    fields = ['category', 'image_tag', 'image', 'tags', 'title', 'text_preview', 'text', 'user', 'meta_title',
+              'meta_description', 'meta_keywords']
     readonly_fields = ['image_tag']
     list_filter = ['category', 'tags']
 
@@ -52,7 +53,9 @@ class ArticleAdmin(admin.ModelAdmin):
 
     tags_list.short_description = 'Теги'
 
+
 @admin.register(Tag)
 class TagAdmin(admin.ModelAdmin):
     list_display = ['name']
     list_display_links = ['name']
+    fields = ['meta_title', 'meta_description', 'meta_keywords']
