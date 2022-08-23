@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="product model">
-      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/1/5fc36a92c03354ff45fc59246b04eb83.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/1_BWv5ZTO/41257178c25f44b707bb3ce850040a66.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/1_nUCJhar/daf206fdf0dbb64663a34fba73538d2a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/2/c8c87db3ce6dbe04e138c43e6dda72cf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/3/356118a12834cea9206bbdad789548ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/4/463c2d1a8aa38ff68cc9e0ab0a9a1cd0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/5/ff49fe9ba5dc89839013d2e19877511c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/6/4b5d1a8dcdea6a71ecb1573775ef57ba.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/7/9426a4cc0f108cce17a9740486868219.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/7_lpG3rVz/28a88d29e60b32da74c6f701f4119676.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/8/e07ad55f8290dba09c594cb64c12b4b2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/CACHE/images/catalog/product/8_HF4EQWN/b34cc1b82d9867df7043fc22a1df7ca7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/catalog/product/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/catalog/product/1_BWv5ZTO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/catalog/product/1_nUCJhar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/catalog/product/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/catalog/product/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/catalog/product/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/catalog/product/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/catalog/product/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/catalog/product/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/catalog/product/7_lpG3rVz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/catalog/product/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/catalog/product/8_HF4EQWN.jpg" afterDir="false" />
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="dz_18">
+      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0009_product_meta_description_product_meta_keywords_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/catalog/migrations/0010_category_meta_description_category_meta_keywords_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/_meta_tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_08_2022_16_22_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_08_2022_16_22__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/catalog/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/catalog/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/catalog/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/catalog/product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -62,7 +56,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="catalog_categories" />
+        <entry key="$PROJECT_DIR$" value="product_to_category" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,25 +73,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Professional/Documents/GitHub/vkysno/templates/catalog",
-    "list.type.of.created.stylesheet": "CSS",
-    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Professional/Documents/GitHub/vkysno/templates/catalog&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates\catalog" />
@@ -142,13 +136,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="config.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Professional\Documents\GitHub\vkysno\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
+      <option name="port" value="8004" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -158,6 +152,10 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django Server.Unnamed" />
+      <item itemvalue="Django Server.vkysno" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -193,6 +191,7 @@
       <workItem from="1660310620515" duration="7890000" />
       <workItem from="1660473793121" duration="40000" />
       <workItem from="1660738800864" duration="14637000" />
+      <workItem from="1661266096666" duration="5964000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1657962944549</created>
@@ -327,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661028148861</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="dz_18">
+      <created>1661030619634</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1661030619634</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +368,7 @@
     <MESSAGE value="dz16" />
     <MESSAGE value="product_to_category" />
     <MESSAGE value="product model" />
-    <option name="LAST_COMMIT_MESSAGE" value="product model" />
+    <MESSAGE value="dz_18" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz_18" />
   </component>
 </project>
