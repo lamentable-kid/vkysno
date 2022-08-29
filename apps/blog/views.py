@@ -1,10 +1,13 @@
 from django.shortcuts import render
+from django.urls import reverse
+
 from apps.blog.models import BlogCategory, Article, Tag
 
 
 def blog_category_list(request):
     blog_categories = BlogCategory.objects.all()
-    return render(request, 'blog/category/list.html', {'categories': blog_categories})
+    breadcrumbs = reverse('blog_category_list')
+    return render(request, 'blog/category/list.html', {'categories': blog_categories, 'breadcrumbs': breadcrumbs})
 
 
 def article_list(request, category_id):
