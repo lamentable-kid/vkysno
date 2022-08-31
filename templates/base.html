@@ -26,6 +26,11 @@
     <div class="container">
         <div class="row">
             <div class="col6">
+                {% if request.user.is_authenticated %}
+                    <p class="text-center">Привет {{ request.user.username}} (<a href="{% url 'logout' %}">Выйти</a>)</p>
+                {% else %}
+                    <p class="text-center"><a href="{% url 'login' %}?next={{ request.path }}">Войти</a></p>
+                {% endif %}
                 <a href="{% url 'home' %}">
                     <img src="{% static 'logo.png' %}" alt="Вкусно" title="Вкусно" id="logo">
                 </a>
