@@ -31,3 +31,9 @@ def add_to_cart(request):
             {'product': cd['product'], 'cart': get_cart_data(cd['user'])}
         )
     print(form.errors)
+
+
+@login_required()
+def show_cart(request):
+    cart = get_cart_data(request.user)
+    return render(request, 'order/cart_list.html', {'cart': cart})
