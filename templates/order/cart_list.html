@@ -2,4 +2,9 @@
 {% block content %}
     <h1>Моя корзина:</h1>
     {% include 'order/_cart.html' %}
+    {% if cart.total %}
+        <p class="text-center">
+            <a href="{% url 'create_order' %}" class="btn btn-info">Оформить заказ</a>
+        </p>
+    {% endif %}
 {% endblock %}
