@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="cart">
-      <change afterPath="$PROJECT_DIR$/templates/order/cart_list.html" afterDir="false" />
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="dz23">
+      <change afterPath="$PROJECT_DIR$/apps/order/migrations/0002_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/created.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/order/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/order/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/order/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/order/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/catalog/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/catalog/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/order/added.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order/added.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/order/cart_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order/cart_list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +50,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="cart" />
+        <entry key="$PROJECT_DIR$" value="cart_hw" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,25 +67,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Professional/Documents/GitHub/vkysno/templates/order",
-    "list.type.of.created.stylesheet": "CSS",
-    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Professional/Documents/GitHub/vkysno/templates/order&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates\order" />
@@ -86,6 +95,7 @@
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps\catalog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates" />
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps" />
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates\blog" />
     </key>
@@ -187,6 +197,7 @@
       <workItem from="1662216502685" duration="8346000" />
       <workItem from="1662239954399" duration="16000" />
       <workItem from="1662276775067" duration="301000" />
+      <workItem from="1662740167501" duration="10878000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1657962944549</created>
@@ -384,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662635583035</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="dz23">
+      <created>1662636681763</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1662636681763</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +421,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="init project" />
     <MESSAGE value="init django" />
     <MESSAGE value="tags migrations" />
     <MESSAGE value="tags migrations2" />
@@ -428,6 +445,7 @@
     <MESSAGE value="register" />
     <MESSAGE value="dz22" />
     <MESSAGE value="cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="cart" />
+    <MESSAGE value="dz23" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz23" />
   </component>
 </project>
