@@ -31,8 +31,7 @@
                     <p class="text-center">Привет {{ request.user.username }} (<a href="{% url 'logout' %}">Выйти</a>)
                     </p>
                 {% else %}
-                    <p class="text-center"><a href="{% url 'login' %}?next=
-                            {% if request.GET.next %}{{ request.GET.next }}{% else %}{{ request.path }}{% endif %}">Войти</a>
+                    <p class="text-center"><a href="{% url 'login' %}?next={% if request.GET.next %}{{ request.GET.next }}{% else %}{{ request.path }}{% endif %}">Войти</a>
                         или
                         <a href="{% url 'register' %}?next={{ request.path }}">Зарегистрироваться</a></p>
                 {% endif %}

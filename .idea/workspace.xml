@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="order create part 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/order/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/order/added.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order/added.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/order/cart_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order/cart_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/order/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/order/created.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order/created.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/welcome.html" afterDir="false" />
-    </list>
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="dz 24" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +183,7 @@
       <workItem from="1662239954399" duration="16000" />
       <workItem from="1662276775067" duration="301000" />
       <workItem from="1662740167501" duration="11189000" />
-      <workItem from="1662911254799" duration="1865000" />
+      <workItem from="1662911254799" duration="1903000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1657962944549</created>
@@ -406,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662837421974</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="dz 24">
+      <created>1662913143849</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1662913143849</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +421,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="tags migrations" />
     <MESSAGE value="tags migrations2" />
     <MESSAGE value="123213" />
     <MESSAGE value="28,7,2022" />
@@ -450,6 +445,7 @@
     <MESSAGE value="cart" />
     <MESSAGE value="dz23" />
     <MESSAGE value="order create part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="order create part 1" />
+    <MESSAGE value="dz 24" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz 24" />
   </component>
 </project>
