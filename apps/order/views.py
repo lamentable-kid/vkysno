@@ -14,6 +14,7 @@ def get_cart_data(user):
 
 @login_required
 def add_to_cart(request):
+    breadcrumbs = {'current': 'Добавление в корзину'}
     data = request.GET.copy()
     data.update(user=request.user)
     request.GET = data
@@ -31,19 +32,21 @@ def add_to_cart(request):
         return render(
             request,
             'order/added.html',
-            {'product': cd['product'], 'cart': get_cart_data(cd['user'])}
+            {'product': cd['product'], 'cart': get_cart_data(cd['user']), 'breadcrumbs': breadcrumbs}
         )
     print(form.errors)
 
 
 @login_required()
 def show_cart(request):
+    breadcrumbs = {'current': 'Корзина'}
     cart = get_cart_data(request.user)
-    return render(request, 'order/cart_list.html', {'cart': cart})
+    return render(request, 'order/cart_list.html', {'cart': cart, 'breadcrumbs': breadcrumbs})
 
 
 @login_required
 def create_order(request):
+    breadcrumbs = {'current': 'Оформление заказа'}
     error = None
     user = request.user
     cart = get_cart_data(user)
@@ -55,9 +58,10 @@ def create_order(request):
         request.POST = data
         form = CreateOrderForm(request.POST)
         if form.is_valid():
+            breadcrumbs = {'current': 'Успешное оформление заказа'}
             form.save()
             Cart.objects.filter(user=user).delete()
-            return render(request, 'order/created.html')
+            return render(request, 'order/created.html', {'breadcrumbs': breadcrumbs})
         error = form.errors
     else:
         form = CreateOrderForm(data={
@@ -66,4 +70,4 @@ def create_order(request):
             'email': user.email if user.email else '',
             'phone': user.phone if user.phone else ''
         })
-    return render(request, 'order/create.html', {'cart': cart, 'form': form, 'error': error})
+    return render(request, 'order/create.html', {'cart': cart, 'form': form, 'error': error, 'breadcrumbs': breadcrumbs})
