@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="dz 24(2)">
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="Order product and product quantity">
+      <change afterPath="$PROJECT_DIR$/apps/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/user/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/user/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/order/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/order/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/order/_cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order/_cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -41,7 +44,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="order_create_part_1" />
+        <entry key="$PROJECT_DIR$" value="order_product_and_product_quantity" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -191,7 +194,8 @@
       <workItem from="1662740167501" duration="11189000" />
       <workItem from="1662911254799" duration="1903000" />
       <workItem from="1662915437020" duration="394000" />
-      <workItem from="1663508329014" duration="4766000" />
+      <workItem from="1663508329014" duration="5093000" />
+      <workItem from="1663661539743" duration="4580000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1657962944549</created>
@@ -417,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662915580383</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Order product and product quantity">
+      <created>1663521454084</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1663521454084</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +447,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="123213" />
     <MESSAGE value="28,7,2022" />
     <MESSAGE value="28,7,2022(2)" />
     <MESSAGE value="сетка и стили, статика" />
@@ -461,6 +471,7 @@
     <MESSAGE value="order create part 1" />
     <MESSAGE value="dz 24" />
     <MESSAGE value="dz 24(2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="dz 24(2)" />
+    <MESSAGE value="Order product and product quantity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Order product and product quantity" />
   </component>
 </project>
