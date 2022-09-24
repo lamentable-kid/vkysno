@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="api init">
-      <change afterPath="$PROJECT_DIR$/apps/api/catalog/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/api/catalog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/api/catalog/views.py" afterDir="false" />
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="postman tricks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/catalog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +191,7 @@
       <workItem from="1662915437020" duration="394000" />
       <workItem from="1663508329014" duration="5093000" />
       <workItem from="1663661539743" duration="4834000" />
-      <workItem from="1663953299596" duration="7660000" />
+      <workItem from="1663953299596" duration="8411000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1657962944549</created>
@@ -433,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663666359948</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="postman tricks">
+      <created>1664051454578</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1664051454578</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +457,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="28,7,2022(2)" />
     <MESSAGE value="сетка и стили, статика" />
     <MESSAGE value="сетка и стили, статика(2)" />
     <MESSAGE value="дз9" />
@@ -477,6 +481,7 @@
     <MESSAGE value="dz 24(2)" />
     <MESSAGE value="Order product and product quantity" />
     <MESSAGE value="api init" />
-    <option name="LAST_COMMIT_MESSAGE" value="api init" />
+    <MESSAGE value="postman tricks" />
+    <option name="LAST_COMMIT_MESSAGE" value="postman tricks" />
   </component>
 </project>
