@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="drf catalog part 2">
-      <change afterPath="$PROJECT_DIR$/apps/api/blog/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/api/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/api/blog/views.py" afterDir="false" />
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="hw 28">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/blog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +192,7 @@
       <workItem from="1663661539743" duration="4834000" />
       <workItem from="1663953299596" duration="8434000" />
       <workItem from="1664392035666" duration="286000" />
-      <workItem from="1664470722100" duration="6022000" />
+      <workItem from="1664470722100" duration="7054000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1657962944549</created>
@@ -456,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664474279983</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="hw 28">
+      <created>1664476967409</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1664476967409</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +479,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="дз9" />
     <MESSAGE value="дз10" />
     <MESSAGE value="дз11" />
     <MESSAGE value="catalog categories" />
@@ -500,6 +503,7 @@
     <MESSAGE value="postman tricks" />
     <MESSAGE value="dz 27" />
     <MESSAGE value="drf catalog part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="drf catalog part 2" />
+    <MESSAGE value="hw 28" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 28" />
   </component>
 </project>
