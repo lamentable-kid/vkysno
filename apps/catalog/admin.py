@@ -24,7 +24,8 @@ class ImageInline(admin.TabularInline):
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ['id', 'name', 'quantity', 'price']
+    list_display = ['id', 'name', 'quantity', 'user', 'price', 'is_checked']
     list_display_links = ['id', 'name']
-    fields = ['name', 'description', 'quantity', 'price', 'meta_title', 'meta_description', 'meta_keywords']
+    fields = ['name', 'description', 'quantity', 'price', 'is_checked', 'user', 'meta_title', 'meta_description',
+              'meta_keywords']
     inlines = [ProductCategoryInline, ImageInline]
