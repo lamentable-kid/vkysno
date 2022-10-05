@@ -39,7 +39,7 @@ class ArticleViewSet(viewsets.ModelViewSet):
         tags = serializer.validated_data.get('tags')
         article = serializer.save(user=self.request.user, tags=self.check_tags(tags))
         read_serializer = self.serializer_class(article, context={'request': request})
-        return Response(read_serializer.data)
+        return Response(read_serializer.data, status=status.HTTP_200_OK)
 
     def get_queryset(self):
         queryset = Article.objects.all()

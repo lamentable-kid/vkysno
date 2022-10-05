@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="create method">
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="hw 29">
+      <change afterPath="$PROJECT_DIR$/apps/blog/migrations/0016_alter_article_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/api/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/article/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/article/view.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +53,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="drf_catalog_part_2" />
+        <entry key="$PROJECT_DIR$" value="drf_blog_crud_part_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,32 +70,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Professional/Documents/GitHub/vkysno/apps/api/blog&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Professional/Documents/GitHub/vkysno/apps/main",
+    "list.type.of.created.stylesheet": "CSS",
+    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps\main" />
+      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates\main" />
+      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\data" />
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps\api\blog" />
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps\api\catalog" />
-      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates\order" />
-      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates\user" />
-      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates\catalog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates" />
@@ -193,7 +208,8 @@
       <workItem from="1663953299596" duration="8434000" />
       <workItem from="1664392035666" duration="286000" />
       <workItem from="1664470722100" duration="7292000" />
-      <workItem from="1664706751477" duration="6355000" />
+      <workItem from="1664706751477" duration="6563000" />
+      <workItem from="1664994096008" duration="5002000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1657962944549</created>
@@ -475,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664715183534</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="hw 29">
+      <created>1664715922944</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1664715922944</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +517,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="catalog categories" />
     <MESSAGE value="dz16" />
     <MESSAGE value="product_to_category" />
     <MESSAGE value="product model" />
@@ -519,6 +541,7 @@
     <MESSAGE value="hw 28" />
     <MESSAGE value="hw 28(2)" />
     <MESSAGE value="create method" />
-    <option name="LAST_COMMIT_MESSAGE" value="create method" />
+    <MESSAGE value="hw 29" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 29" />
   </component>
 </project>
