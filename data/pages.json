@@ -16,5 +16,18 @@
       "slug": "payment-and-shipping",
       "is_active": false
     }
+  },
+  {
+    "model": "main.page",
+    "pk": 3,
+    "fields": {
+      "name": "Контакты",
+      "slug": "contact",
+      "text": "Наш телефон: +38 (095) 544-83-66",
+      "meta_title": "Контакты",
+      "meta_description": "Контакты",
+      "meta_keywords": "Контакты",
+      "is_active": true
+    }
   }
 ]

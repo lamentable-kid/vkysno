@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="hw 29">
-      <change afterPath="$PROJECT_DIR$/apps/blog/migrations/0016_alter_article_text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/pages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/page.html" afterDir="false" />
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="inforation page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/article/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/article/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/pages.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +194,7 @@
       <workItem from="1664392035666" duration="286000" />
       <workItem from="1664470722100" duration="7292000" />
       <workItem from="1664706751477" duration="6563000" />
-      <workItem from="1664994096008" duration="5002000" />
+      <workItem from="1664994096008" duration="5682000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1657962944549</created>
@@ -498,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664715922944</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="inforation page">
+      <created>1665001489690</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1665001489690</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +509,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="dz16" />
     <MESSAGE value="product_to_category" />
     <MESSAGE value="product model" />
     <MESSAGE value="dz_18" />
@@ -542,6 +533,7 @@
     <MESSAGE value="hw 28(2)" />
     <MESSAGE value="create method" />
     <MESSAGE value="hw 29" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 29" />
+    <MESSAGE value="inforation page" />
+    <option name="LAST_COMMIT_MESSAGE" value="inforation page" />
   </component>
 </project>
