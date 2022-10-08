@@ -1,33 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="hw 30">
-      <change afterPath="$PROJECT_DIR$/apps/main/migrations/0002_productset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/owlcarousel2/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/owlcarousel2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/owlcarousel2/assets/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/owlcarousel2/assets/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/owlcarousel2/assets/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/owlcarousel2/assets/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/owlcarousel2/assets/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/owlcarousel2/assets/owl.theme.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/owlcarousel2/assets/owl.theme.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/owlcarousel2/assets/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/owlcarousel2/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/owlcarousel2/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/_product_set.html" afterDir="false" />
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="products_sets_and_filter">
+      <change afterPath="$PROJECT_DIR$/apps/blog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/blog/migrations/0017_article_comment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/blog/migrations/0018_remove_article_comment_comment_article_comment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/blog/migrations/0019_rename_comment_article_comments.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/article/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/article/view.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +45,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="info_pages" />
+        <entry key="$PROJECT_DIR$" value="products_sets" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Professional/Documents/GitHub/vkysno/templates/main",
+    "last_opened_file_path": "C:/Users/Professional/Documents/GitHub/vkysno/apps/blog",
     "list.type.of.created.stylesheet": "CSS",
     "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
   },
@@ -100,11 +83,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps\blog" />
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates\main" />
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\static" />
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps\main" />
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\data" />
-      <recent name="C:\Users\Professional\Documents\GitHub\vkysno\apps\api\blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Professional\Documents\GitHub\vkysno\templates" />
@@ -219,7 +202,7 @@
       <workItem from="1664470722100" duration="7292000" />
       <workItem from="1664706751477" duration="6563000" />
       <workItem from="1664994096008" duration="5975000" />
-      <workItem from="1665253044756" duration="4295000" />
+      <workItem from="1665253044756" duration="9462000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1657962944549</created>
@@ -522,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665002140884</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="products_sets_and_filter">
+      <created>1665258460194</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1665258460195</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +531,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="product model" />
     <MESSAGE value="dz_18" />
     <MESSAGE value="meta tags" />
     <MESSAGE value="another settings" />
@@ -566,6 +555,7 @@
     <MESSAGE value="hw 29" />
     <MESSAGE value="inforation page" />
     <MESSAGE value="hw 30" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 30" />
+    <MESSAGE value="products_sets_and_filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="products_sets_and_filter" />
   </component>
 </project>
