@@ -1,5 +1,5 @@
 from django.contrib import admin
-from apps.blog.models import Article, BlogCategory, Tag
+from apps.blog.models import Article, BlogCategory, Tag, Comment
 from django.urls import reverse
 from django.utils.html import format_html
 from django.utils.http import urlencode
@@ -26,12 +26,12 @@ class BlogCategoryAdmin(admin.ModelAdmin):
 
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
-    list_display = ['id', 'title', 'image_tag_thumbnail', 'category_link', 'created_at', 'tags_list']
+    list_display = ['id', 'title', 'image_tag_thumbnail', 'category_link', 'created_at', 'tags_list', 'comments_list']
     list_display_links = ['id', 'title', 'image_tag_thumbnail', 'tags_list']
-    fields = ['category', 'image_tag', 'image', 'tags', 'title', 'text_preview', 'text', 'user', 'meta_title',
-              'meta_description', 'meta_keywords']
+    fields = ['category', 'image_tag', 'image', 'tags', 'title', 'text_preview', 'text', 'user',
+              'meta_title', 'meta_description', 'meta_keywords', 'comments']
     readonly_fields = ['image_tag']
-    list_filter = ['category', 'tags']
+    list_filter = ['category', 'tags', 'comments']
 
     def category_link(self, obj):
         if obj.category:
@@ -53,9 +53,21 @@ class ArticleAdmin(admin.ModelAdmin):
 
     tags_list.short_description = 'Теги'
 
+    def comments_list(self, obj):
+        comments = obj.comments.all()
+        for comment in comments:
+            return comment
+
+    comments_list.short_description = 'Комментарий'
+
 
 @admin.register(Tag)
 class TagAdmin(admin.ModelAdmin):
     list_display = ['name']
     list_display_links = ['name']
     fields = ['meta_title', 'meta_description', 'meta_keywords']
+
+
+@admin.register(Comment)
+class CommentAdmin(admin.ModelAdmin):
+    list_display = ['text']

@@ -26,6 +26,36 @@
             </div>
         </div>
     {% endif %}
+
+        <h1>Комментарии:</h1>
+    {% if request.user.is_authenticated %}
+        <form method="post">
+            <div class="mb-3">
+                <label for="text" class="form-label">Текст комментария</label>
+                <textarea class="form-control" id="text" name="text" cols="70" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+
+        {% else %}
+
+        <form method="post">
+            <div class="mb-3">
+                <label for="username" class="form-label">Имя</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="text" class="form-label">Текст комментария</label>
+                <textarea class="form-control" id="text" name="text" cols="70" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+    {% endif %}
+
     <p>
         {% for tag in article.tags.all %}
             <a href="{% url 'tag_view' tag_id=tag.id %}">#{{ tag.name }}</a>
