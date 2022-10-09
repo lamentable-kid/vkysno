@@ -27,14 +27,12 @@
         </div>
     {% endif %}
 
-    <h1>Комментарии:</h1>
-        {% for comment in article.comments.all %}
-            {% if comment.is_checked %}
-                <p>{{ comment.username }}: {{ comment.text }}</p>
-            {% endif %}
-        {% endfor %}
-
-    {{ error }}
+    <h1>Комментарии</h1>
+    {% for comment in comments %}
+        {% if comment.is_checked %}
+            <p>{{ comment.username }}: {{ comment.text }}</p>
+        {% endif %}
+    {% endfor %}
 
     <h1>Оставьте свой комментарий:</h1>
     {% if request.user.is_authenticated %}

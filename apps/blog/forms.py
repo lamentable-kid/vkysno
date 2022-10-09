@@ -1,21 +1,10 @@
 from django import forms
 
-from apps.blog.models import Comment
+from apps.blog.models import Commentariy
 
 
-class CommentFormForRegistered(forms.ModelForm):
-    is_checked = False
-
-    class Meta:
-        model = Comment
-        fields = ['username', 'email', 'text', 'is_checked']
-
-
-class CommentFormForLogined(forms.ModelForm):
-    username = forms.CharField()
-    email = forms.EmailField()
-    is_checked = True
+class CommentForm(forms.ModelForm):
 
     class Meta:
-        model = Comment
-        fields = ['username', 'email', 'text', 'is_checked']
+        model = Commentariy
+        fields = '__all__'
