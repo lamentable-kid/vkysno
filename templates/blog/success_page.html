@@ -8,6 +8,5 @@
 {% endblock %}
 {% block content %}
     <h1>Вы успешно добавили комментарий!</h1>
-    <p>{{ comment.text }}</p>
-    <a href="{% url "comment_is_for_registered_applied" %}?next={{ next_page }}">Назад</a>
+    <a href="{{ next_page }}">Назад</a>
 {% endblock %}

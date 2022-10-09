@@ -1,19 +1,10 @@
 from django import forms
 
-from apps.blog.models import Comment
+from apps.blog.models import Commentariy
 
 
-class CommentFormForRegistered(forms.ModelForm):
-
-    class Meta:
-        model = Comment
-        fields = ['username', 'email', 'text']
-
-
-class CommentFormForLogined(forms.ModelForm):
-    username = forms.CharField()
-    email = forms.EmailField()
+class CommentForm(forms.ModelForm):
 
     class Meta:
-        model = Comment
-        fields = ['username', 'email', 'text']
+        model = Commentariy
+        fields = '__all__'

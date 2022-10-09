@@ -9,25 +9,6 @@ from config.settings import MEDIA_ROOT
 from tinymce.models import HTMLField
 
 
-class Comment(models.Model):
-    username = models.ForeignKey(
-        to=User,
-        verbose_name='Имя пользователя',
-        on_delete=models.SET_NULL,
-        null=True
-    )
-    email = models.EmailField(verbose_name="E-mail", blank=True)
-    text = models.TextField(verbose_name='Текст комментария')
-    created_at = models.DateTimeField(verbose_name='Дата создания', auto_now_add=True)
-
-    def __str__(self):
-        return self.text
-
-    class Meta:
-        verbose_name = 'Комментарий'
-        verbose_name_plural = 'Комментарии'
-
-
 class BlogCategory(MetaTagMixin):
     name = models.CharField(verbose_name='Название', max_length=255)
     # image = models.ImageField(verbose_name='Изображение', upload_to='blog/category/', null=True)
@@ -101,7 +82,6 @@ class Article(MetaTagMixin):
         on_delete=models.SET_NULL,
         null=True
     )
-    comments = models.ManyToManyField(to=Comment, verbose_name='Комментарий', blank=True)
     title = models.CharField(verbose_name='Заголовок', max_length=255)
     text_preview = models.TextField(verbose_name='Текст-превью')
     text = HTMLField(verbose_name='Текст')
@@ -137,3 +117,24 @@ class Article(MetaTagMixin):
     class Meta:
         verbose_name = 'Статья'
         verbose_name_plural = 'Статьи'
+
+
+class Commentariy(models.Model):
+    username = models.CharField(verbose_name='Имя', max_length=255, null=True, blank=True)
+    article_connect = models.ForeignKey(
+        to=Article,
+        verbose_name='Привязан к статье',
+        on_delete=models.SET_NULL,
+        null=True
+    )
+    email = models.EmailField(verbose_name="E-mail", blank=True)
+    text = models.TextField(verbose_name='Текст комментария')
+    created_at = models.DateTimeField(verbose_name='Дата создания', auto_now_add=True)
+    is_checked = models.BooleanField(verbose_name='Проверен', default=False)
+
+    def __str__(self):
+        return self.text
+
+    class Meta:
+        verbose_name = 'Комментарий'
+        verbose_name_plural = 'Комментарии'

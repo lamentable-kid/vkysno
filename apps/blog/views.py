@@ -3,8 +3,8 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
 
-from apps.blog.forms import CommentFormForRegistered, CommentFormForLogined
-from apps.blog.models import BlogCategory, Article, Tag, Comment
+from apps.blog.forms import CommentForm
+from apps.blog.models import BlogCategory, Article, Tag, Commentariy
 from config.settings import PAGE_NAMES
 
 
@@ -24,14 +24,38 @@ def article_list(request, category_id):
 
 
 def article_view(request, category_id, article_id):
+    comments = Commentariy.objects.filter(article_connect=article_id)
     article = Article.objects.get(id=article_id)
     category = BlogCategory.objects.get(id=category_id)
     breadcrumbs = {reverse('blog_category_list'): PAGE_NAMES['blog']}
+    error = None
+    is_checked = False
+
+    if request.method == 'POST':
+        data = request.POST.copy()
+        if request.user.is_authenticated:
+            data.update(article_connect=article_id, username=request.user, email=request.user.email, is_checked=True)
+        else:
+            data.update(article_connect=article_id, is_checked=False)
+        request.POST = data
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            breadcrumbs = {'current': 'Успешное добавление комментария'}
+            form.save(commit=False)
+            data.update(artid=article)
+            form.save(data)
+            return render(request, 'blog/success_page.html', {'breadcrumbs': breadcrumbs, 'next_page': request.path})
+        else:
+            error = form.errors
+    else:
+        form = CommentForm()
+
     if article:
         breadcrumbs.update({reverse('article_list', args=[category_id]): category})
     breadcrumbs.update({'current': article})
     return render(request, 'blog/article/view.html',
-                  {'article': article, 'category': category, 'breadcrumbs': breadcrumbs})
+                  {'error': error, 'article': article, 'category': category,
+                   'breadcrumbs': breadcrumbs, 'is_checked': is_checked, 'comments': comments})
 
 
 def tag_view(request, tag_id):
@@ -42,41 +66,3 @@ def tag_view(request, tag_id):
     if tag:
         breadcrumbs.update({reverse('tag_view', args=[tag_id]): tag})
     return render(request, 'blog/tag/list.html', {'article_wh_ex_tag': article_wh_ex_tag, 'breadcrumbs': breadcrumbs})
-
-
-def comment_is_for_registered_applied(request):
-    comments = Article.objects.get(comments=True)
-    breadcrumbs = {}
-    error = None
-    next_page = request.GET.get('next', reverse('home'))
-    if request.method == 'POST':
-        form = CommentFormForRegistered(data=request.POST)
-        if form.is_valid():
-            breadcrumbs = {'current': 'Успешное добавление комментария'}
-            comment = form.save(commit=True)
-            HttpResponseRedirect(redirect_to=next_page)
-            return render(request, 'blog/success_page.html', {'comment': comment, 'next_page': next_page,
-                                                      'breadcrumbs': breadcrumbs})
-        error = form.errors
-    else:
-        form = CommentFormForRegistered()
-    return render(request, 'blog/article/view.html', {'comments': comments, 'error': error,
-                                                  'breadcrumbs': breadcrumbs})
-
-
-def comment_is_for_logined_applied(request):
-    breadcrumbs = {}
-    error = None
-    next_page = request.GET.get('next', reverse('home'))
-    if request.method == 'POST':
-        form = CommentFormForLogined(request.POST)
-        if form.is_valid():
-            cleaned_data = form.cleaned_data
-            user = authenticate(username=cleaned_data['username'], email=cleaned_data['email'])
-            if user:
-                breadcrumbs = {'current': 'Успешное добавление комментария'}
-                return render(request, 'blog/article/view.html', {'request': request, 'next_page': next_page,
-                                                                  'breadcrumbs': breadcrumbs})
-    else:
-        form = CommentFormForLogined()
-    return render(request, 'user/login.html', {'form': form, 'error': error, 'breadcrumbs': breadcrumbs})
