@@ -19,6 +19,7 @@ class Comment(models.Model):
     email = models.EmailField(verbose_name="E-mail", blank=True)
     text = models.TextField(verbose_name='Текст комментария')
     created_at = models.DateTimeField(verbose_name='Дата создания', auto_now_add=True)
+    is_checked = models.BooleanField(verbose_name='Проверен', default=False)
 
     def __str__(self):
         return self.text

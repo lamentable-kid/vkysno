@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="hw_30 part 1">
-      <change afterPath="$PROJECT_DIR$/templates/blog/success_page.html" afterDir="false" />
+    <list default="true" id="a7944e02-022f-4a79-b4a0-e98d2e26bca2" name="Changes" comment="hw_30 part 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/article/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/article/view.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +199,7 @@
       <workItem from="1664706751477" duration="6563000" />
       <workItem from="1664994096008" duration="5975000" />
       <workItem from="1665253044756" duration="9549000" />
-      <workItem from="1665300248516" duration="6798000" />
+      <workItem from="1665300248516" duration="7437000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1657962944549</created>
@@ -517,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665262960287</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="hw_30 part 2">
+      <created>1665308056291</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1665308056291</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="meta tags" />
     <MESSAGE value="another settings" />
     <MESSAGE value="breadcrumbs" />
     <MESSAGE value="hw20" />
@@ -561,6 +566,7 @@
     <MESSAGE value="hw 30" />
     <MESSAGE value="products_sets_and_filter" />
     <MESSAGE value="hw_30 part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw_30 part 1" />
+    <MESSAGE value="hw_30 part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_30 part 2" />
   </component>
 </project>

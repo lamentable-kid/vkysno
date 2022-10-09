@@ -29,7 +29,9 @@
 
     <h1>Комментарии:</h1>
         {% for comment in article.comments.all %}
-            <p>{{ comment.username }}: {{ comment.text }}</p>
+            {% if comment.is_checked %}
+                <p>{{ comment.username }}: {{ comment.text }}</p>
+            {% endif %}
         {% endfor %}
 
     {{ error }}
