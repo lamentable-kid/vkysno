@@ -1,4 +1,5 @@
 from django.contrib.auth import authenticate
+from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
 
@@ -44,19 +45,22 @@ def tag_view(request, tag_id):
 
 
 def comment_is_for_registered_applied(request):
+    comments = Article.objects.get(comments=True)
     breadcrumbs = {}
     error = None
     next_page = request.GET.get('next', reverse('home'))
     if request.method == 'POST':
-        form = CommentFormForRegistered(request.POST, request.FILES)
+        form = CommentFormForRegistered(data=request.POST)
         if form.is_valid():
             breadcrumbs = {'current': 'Успешное добавление комментария'}
-            return render(request, 'blog/article/view.html', {'request': request, 'next_page': next_page,
+            comment = form.save(commit=True)
+            HttpResponseRedirect(redirect_to=next_page)
+            return render(request, 'blog/success_page.html', {'comment': comment, 'next_page': next_page,
                                                       'breadcrumbs': breadcrumbs})
         error = form.errors
     else:
         form = CommentFormForRegistered()
-    return render(request, 'blog/article/view.html', {'form': form, 'error': error,
+    return render(request, 'blog/article/view.html', {'comments': comments, 'error': error,
                                                   'breadcrumbs': breadcrumbs})
 
 
