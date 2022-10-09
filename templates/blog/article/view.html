@@ -27,9 +27,17 @@
         </div>
     {% endif %}
 
-        <h1>Комментарии:</h1>
+    <h1>Комментарии:</h1>
+        {% for comment in article.comments.all %}
+            <p>{{ comment.username }}: {{ comment.text }}</p>
+        {% endfor %}
+
+    {{ error }}
+
+    <h1>Оставьте свой комментарий:</h1>
     {% if request.user.is_authenticated %}
         <form method="post">
+            {% csrf_token %}
             <div class="mb-3">
                 <label for="text" class="form-label">Текст комментария</label>
                 <textarea class="form-control" id="text" name="text" cols="70" rows="10"></textarea>
@@ -40,6 +48,7 @@
         {% else %}
 
         <form method="post">
+            {% csrf_token %}
             <div class="mb-3">
                 <label for="username" class="form-label">Имя</label>
                 <input type="text" class="form-control" id="username" name="username" required>

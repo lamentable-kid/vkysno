@@ -20,6 +20,9 @@ class Comment(models.Model):
     text = models.TextField(verbose_name='Текст комментария')
     created_at = models.DateTimeField(verbose_name='Дата создания', auto_now_add=True)
 
+    def __str__(self):
+        return self.text
+
     class Meta:
         verbose_name = 'Комментарий'
         verbose_name_plural = 'Комментарии'
